@@ -42,7 +42,7 @@ class HomeController extends Controller
 
         $thumbnail = Image::make(Storage::path('/public/image/asks/').'origin/'.$filename);
         $thumbnail->fit(300, 300);
-        $thumbnail->save(Storage::path('/public/image/asks/').'thumbnail/'.$filename);
+        $thumbnail->save(Storage::path('/public/image/asks/').'origin/'.$filename);
 
 
 
