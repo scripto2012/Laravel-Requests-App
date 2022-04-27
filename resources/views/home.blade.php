@@ -108,7 +108,7 @@
                                                 <div class="row container justify-content-center align-items-center">Компания: {{$item['company']}}</div>
                                                 <div class="row container justify-content-center align-items-center">Сообщение: {{$item['message']}}</div>
 {{--                                                <div class="row">Файл: {{$item->file}}</div>--}}
-                                                <p><img class="mt-3 container justify-content-center align-items-center" src="{{ asset('storage').'/image/asks/thumbnail/'.$item->file }}" alt="12"></p>
+                                                <p><img class="mt-3 container justify-content-center align-items-center" src="{{ asset('storage').'/image/asks/origin/'.$item->file }}" alt="12"></p>
                                             </div>
                                         </div>
                                     </div>
